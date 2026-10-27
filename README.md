@@ -1,4 +1,7 @@
 # SubWave
+
+# This App Is Only For Macs
+
 After trying several audio apps, I created SubWave to make customizing my Mac’s sound simple. It combines volume boost, left/right balance, and equalizer controls in one clean interface—letting you fine-tune your audio, save your favorite settings, and play through your preferred output.
 
 <p align="center">
@@ -17,11 +20,12 @@ Requires macOS 14.4 (Sonoma) or later. Runs on both Apple chip (M1 and later) an
 
 1. Open the downloaded `SubWave-1.0.0.zip` to unzip it (Safari may already have done this).
 2. Drag **SubWave** into your **Applications** folder.
-3. Open SubWave. The first time, macOS will warn that it can't check the app for malicious software, because SubWave isn't registered with Apple. To open it anyway:
-   - **macOS 15 (Sequoia) and later:** click **Done**, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to the SubWave message. Confirm with your password.
-   - **macOS 14 (Sonoma):** right-click (or Control-click) SubWave in Applications, choose **Open**, then click **Open**.
+3. Double-click SubWave. Because SubWave isn't registered with Apple, macOS warns that it can't check the app and won't open it. Click **Done** (or **OK**), then allow it once:
+   1. Choose the Apple menu → **System Settings**, then click **Privacy & Security** in the sidebar. (You may need to scroll down.)
+   2. Scroll down to **Security**. Next to the message about SubWave, click **Open Anyway**. This button only appears for about an hour after you try to open the app.
+   3. Click **Open Anyway** again, enter your Mac login password, then click **OK**.
 
-   You only need to do this once.
+   SubWave is now saved as an exception, so from then on it opens with a normal double-click. On macOS 14 (Sonoma) you can instead right-click SubWave in Applications, choose **Open**, then click **Open**. More help: [Open a Mac app from an unknown developer](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac) (Apple Support).
 4. When asked, allow SubWave to **record system audio**. SubWave needs this to process your Mac's sound; it never records or saves anything.
 
 ## Using SubWave
