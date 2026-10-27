@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Resources/icon-1024.png" width="180" alt="SubWave app icon">
+</p>
+
 # SubWave
 
 # This App Is Only For Macs
